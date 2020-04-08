@@ -1,0 +1,82 @@
+@import '../../variables';
+
+.Button {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 14px 12px;
+  width: fit-content;
+  display: inline-block;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 22%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $primary;
+    z-index: -1;
+    opacity: 0.15;
+    border-radius: 4px;
+    animation: reduce 0.5s ease-in-out forwards;
+  }
+
+  &:hover {
+    &:before {
+      animation: expand 0.5s ease-in-out forwards;
+    }
+
+    img {
+      animation: twinkle 0.4s ease-in-out infinite alternate;
+    }
+
+    img:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+  }
+
+  img {
+    width: 7px;
+
+    &:nth-child(1) {
+      margin-left: 0.5em;
+      opacity: 0.3;
+    }
+  }
+}
+
+@keyframes expand {
+  0% {
+    width: 20%;
+  }
+  60% {
+    width: 108%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes reduce {
+  0% {
+    width: 100%;
+  }
+  60% {
+    width: 15%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

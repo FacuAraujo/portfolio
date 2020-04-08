@@ -33,7 +33,8 @@ h1 {
   font-size: $primary-title;
 }
 
-h2 {
+h2,
+h3 {
   font-size: $secondary-title;
 }
 
@@ -68,4 +69,8 @@ code {
 
 .text-primary {
   color: $primary;
+}
+
+ul {
+  list-style: none;
 }
