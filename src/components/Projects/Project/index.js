@@ -42,10 +42,10 @@ const Project = () => {
         </p>
 
         <span className="Project-Button">
-          <Button text="Ver en github" link="/#" />
+          <Button text="Ver en github" linkExt="https://twitter.com" />
         </span>
         <span className="Project-Button">
-          <Button text="Ver sitio" link="/#" />
+          <Button text="Ver sitio" linkExt="/#" />
         </span>
       </div>
     </div>

@@ -9,11 +9,9 @@ import Footer from '../../components/Footer';
 const Home = () => {
   return (
     <React.Fragment>
-      <Header />
       <Hero />
       <ProjectsList />
       <Contact />
-      <Footer />
     </React.Fragment>
   );
 };

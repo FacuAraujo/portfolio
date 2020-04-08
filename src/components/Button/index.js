@@ -5,13 +5,28 @@ import Arrow from '../../assets/images/arrow.svg';
 
 import './styles.scss';
 
-const Button = ({ link, text }) => {
+const Button = ({ linkExt, link, text }) => {
+  if (linkExt) {
+    return (
+      <a
+        href={linkExt}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="Button text-primary"
+      >
+        {text}
+        <img src={Arrow} alt="arrow" />
+        <img src={Arrow} alt="arrow" />
+      </a>
+    );
+  }
+
   return (
-    <a href={link} className="Button text-primary">
+    <Link to={link} className="Button text-primary">
       {text}
       <img src={Arrow} alt="arrow" />
       <img src={Arrow} alt="arrow" />
-    </a>
+    </Link>
   );
 };
 
