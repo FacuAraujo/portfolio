@@ -22,7 +22,7 @@ const Contact = () => {
         </p>
         <Button
           text="Enviar mensaje"
-          link="mailto:facuaaraujo@gmail.com"
+          linkExt="mailto:facuaaraujo@gmail.com"
         ></Button>
       </div>
     </section>
