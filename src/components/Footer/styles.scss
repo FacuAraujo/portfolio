@@ -1,0 +1,32 @@
+@import '../../variables';
+
+.Footer-Container {
+  border-top: 1px solid rgba(112, 112, 112, 0.267);
+  padding: 1.5em 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Social-Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      margin-right: 3em;
+    }
+
+    .Social-Icon {
+      width: 25px;
+      height: auto;
+      fill: #bfbfc0;
+    }
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
