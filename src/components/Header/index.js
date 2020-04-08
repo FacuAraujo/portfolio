@@ -21,12 +21,12 @@ const Header = () => {
   };
 
   return (
-    <div id="header" className="Header-Container">
+    <header id="header" className="Header-Container">
       <div className="container">
         <div className="logo">Facu Araujo</div>
         <Navbar />
       </div>
-    </div>
+    </header>
   );
 };
 

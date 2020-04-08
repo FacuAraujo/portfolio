@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './global.scss';
 
-import Header from './components/Header';
-import Hero from './components/Hero';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Hero />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
