@@ -1,7 +1,26 @@
 import React from 'react';
 
+import './styles.scss';
+
 const Header = () => {
-  return <h1>Header</h1>;
+  return (
+    <div className="Hero-Container">
+      <h1 className="Hero-Title">
+        <span className="text-primary">
+          Hola! <div className="icon">👋🏼</div>
+        </span>{' '}
+        <br />
+        soy Facu Araujo
+      </h1>
+      <p className="Hero-Paragraph">
+        Un FrontEnd Developer de Buenos Aires, Argentina, buscando mis primeras
+        experiencias en IT. Quiero convertirme en FullStack Developer en
+        JavaScript, por eso continuo y nunca voy a parar de aprender. Tengo
+        experiencia en maquetación de Ecommerce y creación de aplicaciones con
+        React.
+      </p>
+    </div>
+  );
 };
 
 export default Header;

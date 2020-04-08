@@ -3,31 +3,12 @@ import ReactDOM from 'react-dom';
 import './global.scss';
 
 import Header from './components/Header';
+import Hero from './components/Hero';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
+    <Hero />
   </React.StrictMode>,
   document.getElementById('root')
 );

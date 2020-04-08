@@ -42,6 +42,7 @@ p {
   font-weight: 200;
   font-size: $font-size;
   color: $text-color;
+  line-height: 2.3;
 }
 
 a {
@@ -64,4 +65,8 @@ code {
   @media (max-width: 1200px) {
     padding: 1em;
   }
+}
+
+.text-primary {
+  color: $primary;
 }
