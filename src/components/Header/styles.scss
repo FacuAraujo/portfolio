@@ -1,0 +1,17 @@
+.Header-Container {
+  padding: 50px 0;
+  position: sticky;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.Header-Container.fixed {
+  background-color: rgba(15, 14, 22, 0.969);
+  border-bottom: 1px solid rgba(112, 112, 112, 0.267);
+}
