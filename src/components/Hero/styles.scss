@@ -13,8 +13,9 @@
   line-height: 1.3;
   margin-bottom: 50px;
 
-  .icon {
+  .emoji {
     display: inline-block;
+    margin-left: 10px;
     transform-origin: bottom center;
     animation: balanceo 0.9s ease-in-out infinite alternate;
     @keyframes balanceo {

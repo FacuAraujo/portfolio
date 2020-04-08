@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Emoji from '../Emoji';
+
 import './styles.scss';
 
 const Header = () => {
@@ -7,8 +9,9 @@ const Header = () => {
     <div className="Hero-Container">
       <h1 className="Hero-Title">
         <span className="text-primary">
-          Hola! <div className="icon">👋🏼</div>
-        </span>{' '}
+          Hola!
+          <Emoji symbol="👋🏼" label="hand" />
+        </span>
         <br />
         soy Facu Araujo
       </h1>
