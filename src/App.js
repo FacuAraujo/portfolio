@@ -10,15 +10,15 @@ import NotFound from './pages/NotFound';
 const App = () => {
   return (
     <React.Fragment>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/sobre-mi" component={About} />
           <Route path="*" component={NotFound} />
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </React.Fragment>
   );
 };

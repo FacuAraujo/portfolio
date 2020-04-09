@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './styles.scss';
+import { Link } from 'react-router-dom';
 
 const handleClick = () => {
   const $btnMenu = document.querySelector('#btn-menu');
@@ -13,10 +14,18 @@ const Navbar = () => {
   return (
     <nav id="Main-menu" className="Navbar-Container">
       <ul className="Navbar">
-        <li>Home</li>
-        <li>Sobre mi</li>
-        <li>Proyectos</li>
-        <li>Contacto</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/sobre-mi">Sobre mí</Link>
+        </li>
+        <li>
+          <a href="#projects">Proyectos</a>
+        </li>
+        <li>
+          <a href="#contact">Contacto</a>
+        </li>
       </ul>
       <div id="btn-menu" className="burger-menu" onClick={handleClick}>
         <div className="line"></div>

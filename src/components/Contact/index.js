@@ -7,7 +7,7 @@ import './styles.scss';
 
 const Contact = () => {
   return (
-    <section id="Contact" className="Contact-Container">
+    <section id="contact" className="Contact-Container">
       <div className="container">
         <h2>
           <Emoji label="doubt" symbol="🤔" />
