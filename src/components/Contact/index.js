@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Emoji from '../Emoji';
 import Button from '../Button';
@@ -9,21 +10,27 @@ const Contact = () => {
   return (
     <section id="contact" className="Contact-Container">
       <div className="container">
-        <h2>
-          <Emoji label="doubt" symbol="🤔" />
-          Y..? <br /> Qué te pareció?
-        </h2>
-        <p>
-          Si tenés intenciones de hablar conmigo para que trabajemos juntos o
-          simplemente para hacerme alguna consulta, podes hacerlo mediante
-          cualquiera de mis redes o simplemente envíame un correo tocando aca
-          abajo <Emoji label="hand-to-bottom" symbol="👇🏼" />. Estoy disponible y
-          te voy a responder lo mas rápido posible.
-        </p>
-        <Button
-          text="Enviar mensaje"
-          linkExt="mailto:facuaaraujo@gmail.com"
-        ></Button>
+        <ScrollAnimation animateIn="fadeInUp" delay={200} duration={1.2}>
+          <h2>
+            <Emoji label="doubt" symbol="🤔" />
+            Y..? <br /> Qué te pareció?
+          </h2>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={200} duration={1.2}>
+          <p>
+            Si tenés intenciones de hablar conmigo para que trabajemos juntos o
+            simplemente para hacerme alguna consulta, podes hacerlo mediante
+            cualquiera de mis redes o simplemente envíame un correo tocando aca
+            abajo <Emoji label="hand-to-bottom" symbol="👇🏼" />. Estoy disponible
+            y te voy a responder lo mas rápido posible.
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={200} duration={1.2}>
+          <Button
+            text="Enviar mensaje"
+            linkExt="mailto:facuaaraujo@gmail.com"
+          ></Button>
+        </ScrollAnimation>
       </div>
     </section>
   );

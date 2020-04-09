@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Project from '../Project';
 
@@ -8,7 +9,9 @@ const ProjectsList = () => {
   return (
     <main id="projects" className="Projects-Container">
       <div className="container">
-        <h2 className="Projects-Title text-primary">Proyectos</h2>
+        <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
+          <h2 className="Projects-Title text-primary">Proyectos</h2>
+        </ScrollAnimation>
         <Project />
         <Project />
         <Project />
