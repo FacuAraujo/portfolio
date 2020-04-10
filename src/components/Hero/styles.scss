@@ -32,3 +32,15 @@
 .Hero-Paragraph {
   width: 95%;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .Hero-Container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Hero-Container {
+    width: 90%;
+  }
+}

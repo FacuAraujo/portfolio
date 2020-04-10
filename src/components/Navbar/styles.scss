@@ -116,3 +116,26 @@ $btnRadius: 5px;
   transform: translateY(-50%);
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding: 5em;
+    transition: all 0.2s ease;
+
+    li {
+      margin: 0 0 2em 0;
+    }
+  }
+
+  .Navbar-Container.Navbar-Container.active {
+    .Navbar {
+      height: 100vh;
+      background: rgba($body, 0.8);
+    }
+  }
+}

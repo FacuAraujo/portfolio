@@ -89,3 +89,15 @@
     transform: scale(1.05);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .About-Img {
+    position: absolute;
+    opacity: 0.3;
+    width: 100%;
+  }
+
+  .About-Text {
+    width: 100%;
+  }
+}

@@ -30,3 +30,25 @@
     font-size: 0.9em;
   }
 }
+
+@media (max-width: 480px) {
+  .Footer-Container {
+    .container {
+      display: block;
+      text-align: center;
+    }
+
+    .Social-Icons {
+      margin-bottom: 2em;
+      a {
+        margin: 0 1.5em;
+      }
+
+      .Social-Icon {
+        width: 18px;
+        height: auto;
+        fill: #bfbfc0;
+      }
+    }
+  }
+}

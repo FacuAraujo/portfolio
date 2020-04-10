@@ -66,3 +66,56 @@
 .Project-Button {
   margin-right: 4em;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .Img-Box {
+    width: 150px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Project-Container {
+    display: block;
+    margin: 15em 0;
+  }
+
+  .Project-Img,
+  .Project-Info {
+    width: 100%;
+  }
+
+  .Project-Img {
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
+
+    .Img-Box {
+      width: 150px;
+      height: 250px;
+      transform: translate(0);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Project-Container {
+    display: block;
+    margin: 15em 0;
+  }
+
+  .Project-Info .Project-Specs {
+    font-size: 1.3em;
+  }
+
+  .Project-Img {
+    .Img-Box {
+      width: 120px;
+      height: 220px;
+    }
+  }
+
+  .Project-Button {
+    margin-right: 2em;
+  }
+}
