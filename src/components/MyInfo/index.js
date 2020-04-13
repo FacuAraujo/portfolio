@@ -63,7 +63,7 @@ const MyInfo = () => {
             >
               Yo soy un FrontEnd Developer entusiasta, que está buscando su
               primer trabajo en este ambiente. Soy un apasionado de la
-              tecnología y actualmente del desarrollo de paginas y aplicaciones
+              tecnología y actualmente del desarrollo de páginas y aplicaciones
               web.
             </ScrollAnimation>
           </p>
@@ -118,7 +118,7 @@ const MyInfo = () => {
               Si te interesa contactarme para algún proyecto o trabajo, o
               solamente tenés alguna consulta no dudes en enviarme tu mensaje a
               <span className="text-primary"> facuaaraujo@gmail.com</span>.
-              Estoy disponible y te voy a responder lo mas rápido que pueda.
+              Estoy disponible y te voy a responder lo más rápido que pueda.
             </p>
           </ScrollAnimation>
         </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import Emoji from '../Emoji';
+import SocialIcons from '../SocialIcons';
 
 import './styles.scss';
 
@@ -32,6 +33,7 @@ const Header = () => {
           React.
         </p>
       </ScrollAnimation>
+      <SocialIcons />
     </div>
   );
 };

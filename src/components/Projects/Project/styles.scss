@@ -42,6 +42,11 @@
 .Project-Info {
   padding-left: 1em;
 
+  .Project-Title {
+    text-transform: uppercase;
+    margin-bottom: -0.2em;
+  }
+
   h3 {
     margin-bottom: 0.8em;
   }

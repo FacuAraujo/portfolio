@@ -5,59 +5,51 @@ import Button from '../../Button';
 
 import './styles.scss';
 
-const Project = () => {
+const Project = ({ text, images, title, name, github, site, year, type }) => {
   return (
     <div className="Project-Container">
       <div className="Project-Img">
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
           <span className="Img-Box">
-            <img
-              src="https://images.unsplash.com/photo-1565171125762-db44231f1a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
-              alt=""
-            />
+            <img src={images[0]} alt="" />
           </span>
           <span className="Img-Box">
-            <img
-              src="https://images.unsplash.com/photo-1565171125762-db44231f1a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
-              alt=""
-            />
+            <img src={images[1]} alt="" />
           </span>
         </ScrollAnimation>
       </div>
       <div className="Project-Info">
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
-          <h3>Twitter Clone</h3>
+          <h3 className="Project-Title">{name}</h3>
+          <h3>{title}</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
           <div className="Project-Specs">
             <ul>
               <li>
-                <span className="text-primary">Año</span> 2020
+                <span className="text-primary">Año</span> {year}
               </li>
               <li>
-                <span className="text-primary">Tipo</span> React Firebase Sass
+                <span className="text-primary">Tipo</span> {type}
               </li>
             </ul>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
-          <p>
-            En este proyecto, con el cual busque ampliar mis habilidades
-            desarrolle una aplicación con algunas funcionalidades de twitter.
-            Aposte a desarrollar el FrontEnd utilizando React y Sass como
-            preprocesador. Para el Backend incorpore Firebase, con el cual
-            almaceno la información en bases de datos y realizo la
-            autenticación.
-          </p>
+          <p>{text}</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
-          <span className="Project-Button">
-            <Button text="Ver en github" linkExt="https://twitter.com" />
-          </span>
-          <span className="Project-Button">
-            <Button text="Ver sitio" linkExt="/#" />
-          </span>
+          {github && (
+            <span className="Project-Button">
+              <Button text="Ver en github" linkExt={github} />
+            </span>
+          )}
+          {site && (
+            <span className="Project-Button">
+              <Button text="Ver sitio" linkExt={site} />
+            </span>
+          )}
         </ScrollAnimation>
       </div>
     </div>

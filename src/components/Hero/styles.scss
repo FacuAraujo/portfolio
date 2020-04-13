@@ -29,6 +29,18 @@
   }
 }
 
+.Hero-Container .Social-Icons {
+  position: absolute;
+  flex-direction: column;
+  left: 5%;
+  bottom: 12%;
+
+  a {
+    margin-right: 0;
+    margin-bottom: 2em;
+  }
+}
+
 .Hero-Paragraph {
   width: 95%;
 }
@@ -42,5 +54,16 @@
 @media screen and (max-width: 768px) {
   .Hero-Container {
     width: 90%;
+  }
+
+  .Hero-Container .Social-Icons {
+    position: static;
+    flex-direction: row;
+    margin-top: 3em;
+
+    a {
+      margin-right: 3em;
+      margin-bottom: 0;
+    }
   }
 }

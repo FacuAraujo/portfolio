@@ -20,9 +20,9 @@ const Contact = () => {
           <p>
             Si tenés intenciones de hablar conmigo para que trabajemos juntos o
             simplemente para hacerme alguna consulta, podes hacerlo mediante
-            cualquiera de mis redes o simplemente envíame un correo tocando aca
+            cualquiera de mis redes o simplemente envíame un correo tocando acá
             abajo <Emoji label="hand-to-bottom" symbol="👇🏼" />. Estoy disponible
-            y te voy a responder lo mas rápido posible.
+            y te voy a responder lo más rápido posible.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={200} duration={1.2}>
