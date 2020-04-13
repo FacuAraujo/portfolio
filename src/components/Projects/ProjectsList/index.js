@@ -35,7 +35,7 @@ const ProjectsList = () => {
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
           <h2 className="Projects-Title text-primary">Trabajos</h2>
         </ScrollAnimation>
-        {works.map(({ text, images, name, title, site }) => (
+        {works.map(({ text, images, name, title, site, year, type }) => (
           <Project
             key={name}
             text={text}
@@ -43,6 +43,8 @@ const ProjectsList = () => {
             name={name}
             title={title}
             site={site}
+            type={type}
+            year={year}
           />
         ))}
       </div>
