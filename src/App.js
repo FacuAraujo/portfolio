@@ -10,7 +10,7 @@ import NotFound from './pages/NotFound';
 const App = () => {
   return (
     <React.Fragment>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
