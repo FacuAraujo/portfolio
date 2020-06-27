@@ -2,19 +2,6 @@
   {
     "projects": [
       {
-        "name": "Aswitter",
-        "title": "Clon de twitter",
-        "github": "https://github.com/FacuAraujo/twitter-clone",
-        "site": "https://aswitter.facuaraujo.com",
-        "images": [
-          "https://i.imgur.com/6SgAP9S.jpg",
-          "https://i.imgur.com/qrmD2K2.jpg"
-        ],
-        "text": "En este proyecto, con el cual busque ampliar mis habilidades desarrolle una aplicación con algunas funcionalidades de twitter. Aposte a desarrollar el FrontEnd utilizando React y Sass como preprocesador. Para el Backend incorpore Firebase, con el cual almaceno la información en bases de datos y realizo la autenticación.",
-        "year": 2020,
-        "type": "JavaScript React Sass Firebase"
-      },
-      {
         "name": "LogoQuiz Esports",
         "github": "https://github.com/FacuAraujo/logoquiz-esports-game",
         "site": "https://facuaraujo.github.io/logoquiz-esports-game/",
@@ -27,22 +14,16 @@
         "type": "JavaScript React Sass Firebase"
       },
       {
-        "name": "Info Countries",
-        "github": "https://github.com/FacuAraujo/rest-countries-api",
-        "site": "https://facuaraujo.github.io/rest-countries-api/index.html",
+        "name": "La tienda del Influencer",
+        "site": "https://latiendadelinfluencer.com.ar",
         "images": [
-          "https://i.imgur.com/z7iTLVB.jpg",
-          "https://i.imgur.com/ltPOAqM.jpg"
+          "https://i.imgur.com/DCIJuIb.png",
+          "https://i.imgur.com/DCIJuIb.png"
         ],
-        "text": "Esta aplicación esta realizada con JavaScript Vanilla, sin ningún framework en el FrontEnd. Muestra datos, que trae de un API, de todos los países del mundo y permite filtrarlos por región o simplemente escribiendo su nombre. Ademas hay una página individual para cada país con información más detallada.",
-        "year": 2019,
-        "type": "JavaScript Sass"
-      }
-    ],
-    "works": [
+        "type": "WooCommerce"
+      },
       {
         "name": "Huerta Fresca",
-        "title": "Eccommerce",
         "site": "https://huerta-fresca.com.ar/",
         "images": [
           "https://i.imgur.com/GnCbcpY.jpg",
@@ -50,11 +31,22 @@
         ],
         "text": "En este trabajo estuve encargado de la maquetación de las distintas vistas de la web, las mismas fueron realizadas utilizando HTML, CSS, JavaScript y PHP, para poder customizar OpenCart, el CMS que fue utilizado para desarrollar el sitio.",
         "year": 2019,
-        "type": "HTML5 CSS3 JavaScript"
+        "type": "HTML5 CSS3 JavaScript PHP"
+      },
+      {
+        "name": "Aswitter",
+        "github": "https://github.com/FacuAraujo/twitter-clone",
+        "site": "https://aswitter.facuaraujo.com",
+        "images": [
+          "https://i.imgur.com/6SgAP9S.jpg",
+          "https://i.imgur.com/qrmD2K2.jpg"
+        ],
+        "text": "En este proyecto, con el cual busque ampliar mis habilidades desarrolle una aplicación con algunas funcionalidades de twitter. Aposte a desarrollar el FrontEnd utilizando React y Sass como preprocesador. Para el Backend incorpore Firebase, con el cual almaceno la información en bases de datos y realizo la autenticación.",
+        "year": 2020,
+        "type": "JavaScript React Sass Firebase"
       },
       {
         "name": "Basicare CC",
-        "title": "Landing page",
         "site": "https://basicare.cc",
         "images": [
           "https://i.imgur.com/iTb9yNB.jpg",
@@ -65,16 +57,16 @@
         "type": "Wordpress"
       },
       {
-        "name": "Basicare USA",
-        "title": "Ecommerce",
-        "site": "https://basicareusa.com",
+        "name": "Info Countries",
+        "github": "https://github.com/FacuAraujo/rest-countries-api",
+        "site": "https://facuaraujo.github.io/rest-countries-api/index.html",
         "images": [
-          "https://i.imgur.com/c6tpIlc.jpg",
-          "https://i.imgur.com/rwaAyuw.jpg"
+          "https://i.imgur.com/z7iTLVB.jpg",
+          "https://i.imgur.com/ltPOAqM.jpg"
         ],
-        "text": "Me encargue del desarrollo del ecommerce para la empresa Basicare, en este caso su parte situada en Estados Unidos. Este sitio es un catalogo para muestra y venta de sus productos, realizado utilizando Wordpress y WooCommerce",
-        "year": 2020,
-        "type": "Wordpress WooCommerce"
+        "text": "Esta aplicación esta realizada con JavaScript Vanilla, sin ningún framework en el FrontEnd. Muestra datos, que trae de un API, de todos los países del mundo y permite filtrarlos por región o simplemente escribiendo su nombre. Ademas hay una página individual para cada país con información más detallada.",
+        "year": 2019,
+        "type": "JavaScript Sass"
       }
     ]
   }

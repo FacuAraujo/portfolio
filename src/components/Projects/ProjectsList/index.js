@@ -17,36 +17,23 @@ const ProjectsList = () => {
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
           <h2 className="Projects-Title text-primary">Proyectos</h2>
         </ScrollAnimation>
-        {projects.map(
-          ({ text, images, name, title, github, site, type, year }) => (
-            <Project
-              key={name}
-              text={text}
-              images={images}
-              name={name}
-              title={title}
-              github={github}
-              type={type}
-              year={year}
-              site={site}
-            />
-          )
-        )}
-        <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
-          <h2 className="Projects-Title text-primary">Trabajos</h2>
-        </ScrollAnimation>
-        {works.map(({ text, images, name, title, site, year, type }) => (
-          <Project
-            key={name}
-            text={text}
-            images={images}
-            name={name}
-            title={title}
-            site={site}
-            type={type}
-            year={year}
-          />
-        ))}
+        <div className="Projects-Grid">
+          {projects.map(
+            ({ text, images, name, title, github, site, type, year }) => (
+              <Project
+                key={name}
+                text={text}
+                images={images}
+                name={name}
+                title={title}
+                github={github}
+                type={type}
+                year={year}
+                site={site}
+              />
+            )
+          )}
+        </div>
       </div>
     </main>
   );

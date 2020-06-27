@@ -1,7 +1,17 @@
 .Projects-Container {
-  margin-top: 8rem;
+  margin: 8rem 0;
 }
 
 .Projects-Title {
   text-transform: uppercase;
+  margin-bottom: 5em;
+}
+
+@media screen and (min-width: 1024px) {
+  .Projects-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 13em 10em;
+  }
 }

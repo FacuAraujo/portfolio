@@ -10,12 +10,7 @@ const Project = ({ text, images, title, name, github, site, year, type }) => {
     <div className="Project-Container">
       <div className="Project-Img">
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
-          <span className="Img-Box">
-            <img src={images[0]} alt="" />
-          </span>
-          <span className="Img-Box">
-            <img src={images[1]} alt="" />
-          </span>
+          <img src={images[1]} alt="" />
         </ScrollAnimation>
       </div>
       <div className="Project-Info">
@@ -27,16 +22,10 @@ const Project = ({ text, images, title, name, github, site, year, type }) => {
           <div className="Project-Specs">
             <ul>
               <li>
-                <span className="text-primary">Año</span> {year}
-              </li>
-              <li>
                 <span className="text-primary">Tipo</span> {type}
               </li>
             </ul>
           </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
-          <p>{text}</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" duration={1.2} animateOnce={true}>
