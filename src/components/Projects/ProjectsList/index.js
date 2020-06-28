@@ -8,7 +8,7 @@ import Project from '../Project';
 import './styles.scss';
 
 const ProjectsList = () => {
-  const { projects, works } = Projects[0];
+  const { projects } = Projects[0];
   console.log(projects);
 
   return (
