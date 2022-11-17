@@ -5,8 +5,8 @@
         "name": "Galvan Health",
         "site": "https://galvan.health/",
         "images": [
-          "https://facuaraujo.vercel.app/static/media/Galvan.png",
-          "https://facuaraujo.vercel.app/static/media/Galvan.png"
+          "https://i.imgur.com/injrJ2h.png",
+          "https://i.imgur.com/injrJ2h.png"
         ],
         "type": "Webflow"
       },
@@ -14,8 +14,8 @@
         "name": "Noise Studio",
         "site": "https://www.noisestudio.co/",
         "images": [
-          "https://facuaraujo.vercel.app/static/media/Noise.png",
-          "https://facuaraujo.vercel.app/static/media/Noise.png"
+          "https://i.imgur.com/wsPYLXD.png",
+          "https://i.imgur.com/wsPYLXD.png"
         ],
         "type": "Webflow"
       },
@@ -23,8 +23,8 @@
         "name": "RocketLab",
         "site": "https://www.rocketlab.ai/",
         "images": [
-          "https://facuaraujo.vercel.app/static/media/RocketLab.png",
-          "https://facuaraujo.vercel.app/static/media/RocketLab.png"
+          "https://i.imgur.com/ujvTGkG.png",
+          "https://i.imgur.com/ujvTGkG.png"
         ],
         "type": "Webflow"
       },
@@ -32,8 +32,8 @@
         "name": "Revista Devoto",
         "site": "https://www.revistadevoto.com.ar/",
         "images": [
-          "https://facuaraujo.vercel.app/static/media/RevistaDevoto.png",
-          "https://facuaraujo.vercel.app/static/media/RevistaDevoto.png"
+          "https://i.imgur.com/AN1dHSf.png",
+          "https://i.imgur.com/AN1dHSf.png"
         ],
         "type": "NextJS"
       }
